@@ -15,7 +15,7 @@ whether a common architectural choice (early vs. late fusion) offers any
 real protection against it.
 
 ## Dataset
-[UTD-MHAD](https://personal.utdallas.edu/~kehtar/UTD-MHAD.html) — 27 actions,
+[UTD-MHAD](https://personal.utdallas.edu/~kehtar/UTD-MHAD.html) — 
 8 subjects, 4 trials, synchronized RGB video + wrist/thigh-worn IMU data.
 Not included in this repo (download instructions below) due to size.
 
@@ -36,10 +36,6 @@ unzip RGB.zip -d data/rgb
 unzip Inertial.zip -d data/inertial
 \`\`\`
 Then open `sensor_dropout_experiment.ipynb` in Colab/Jupyter and run cells in order.
-
-## Results
-*(fill in once you have them — accuracy-vs-severity charts, early vs. late
-fusion comparison, and whether dropout-augmented training closed the gap)*
 
 ## Status
 Work in progress — baseline training pipeline complete, robustness
